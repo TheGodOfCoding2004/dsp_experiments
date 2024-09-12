@@ -4,12 +4,12 @@ clc;
 clear all;
 close all;
 
-nyq = 6800;
+nyq = 6800;     %The Nyquist Rate
 
 %Half the Nyquist Rate
 t1 = 0:1/(0.501*nyq):1;
 s1 = sin(2*pi*300*t1) + sin(2*pi*1750*t1) + sin(2*pi*3400*t1);
-y1 = fft(s1);
+y1 = fft(s1);         %Fast Fourier Transform
 
 m1 = abs(y1);
 
