@@ -5,6 +5,7 @@ Linear convolution is a fundamental operation in signal processing and mathemati
 Linear convolution is a way to "mix" two signals (or sequences) by multiplying and summing them in a specific manner.
 
 For 2 discrete-time signals $x(n)$ and $h(n)$ , wih time period (number of samples) = $N$, their linear convouton is given by <br><br>
+
 $$\sum_{l = 0}^{N - 1} x(l) h(n-l)$$
 
 For the following code , these are the inputs I have given for the signals $x(n)$ and $h(n)$
