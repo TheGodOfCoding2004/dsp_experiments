@@ -1,5 +1,5 @@
 # Linear convolution using DFT and IDFT
-Direct computation of DFT is computationally intensive (uses a lot of computer resources)
+Direct computation of Linear convolution is computationally intensive (uses a lot of computer resources)
 
 To reduce the usage of computer resources , we compute the linear convolution using DFT and IDFT by using the "Convolution property" of DFT which states that 
 
