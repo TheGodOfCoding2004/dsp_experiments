@@ -9,5 +9,6 @@ This repo contains the code for a list of Digital Signal Processing Experiments 
 5. Linear Conolution using DFT and IDFT
 6. Circular Convolution using DFT and IDFT
 7. Impulse and Unit response
+8. Difference Equation Implementation
 
 Check out this repository in my CodeBerg page too by clicking [here](https://codeberg.org/Vaishnav_S/dsp_experiments.git)
